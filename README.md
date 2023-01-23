@@ -58,6 +58,4 @@ vendor/                  contains dependent 3rd-party packages
 environments/            contains environment-based overrides
 ```
 
-Documentation is at [docs/guide/README.md](docs/guide/README.md)
-
 Access postman collection [here](https://elements.getpostman.com/redirect?entityId=17617501-84dff10e-130a-4b0e-8f22-5f8e223e223c&entityType=collection)
