@@ -21,15 +21,14 @@ Documentation is at [docs/guide/README.md](docs/guide/README.md).
 [![Total Downloads](https://img.shields.io/packagist/dt/yiisoft/yii2-app-advanced.svg)](https://packagist.org/packages/yiisoft/yii2-app-advanced)
 [![build](https://github.com/yiisoft/yii2-app-advanced/workflows/build/badge.svg)](https://github.com/yiisoft/yii2-app-advanced/actions?query=workflow%3Abuild)
 
-DIRECTORY STRUCTURE
--------------------
+## DIRECTORY STRUCTURE
 
 ```
 common
     config/              contains shared configurations
     mail/                contains view files for e-mails
     models/              contains model classes used in both backend and frontend
-    tests/               contains tests for common classes    
+    tests/               contains tests for common classes
 console
     config/              contains console configurations
     controllers/         contains console controllers (commands)
@@ -42,7 +41,7 @@ backend
     controllers/         contains Web controller classes
     models/              contains backend-specific model classes
     runtime/             contains files generated during runtime
-    tests/               contains tests for backend application    
+    tests/               contains tests for backend application
     views/               contains view files for the Web application
     web/                 contains the entry script and Web resources
 frontend
@@ -58,3 +57,7 @@ frontend
 vendor/                  contains dependent 3rd-party packages
 environments/            contains environment-based overrides
 ```
+
+Documentation is at [docs/guide/README.md](docs/guide/README.md)
+
+Access postman collection [here](https://elements.getpostman.com/redirect?entityId=17617501-84dff10e-130a-4b0e-8f22-5f8e223e223c&entityType=collection)
